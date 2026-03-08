@@ -1,0 +1,41 @@
+# ==========================================================================
+# CRE WORKFLOW SETTINGS FILE
+# ==========================================================================
+# Workflow-specific settings for CRE CLI targets.
+# Each target defines user-workflow and workflow-artifacts groups.
+# Settings here override CRE Project Settings File values.
+#
+# Example custom target:
+# my-target:
+#   user-workflow:
+#     workflow-name: "MyExampleWorkflow"    # Required: Workflow Registry name
+#   workflow-artifacts:
+#     workflow-path: "./main.ts"            # Path to workflow entry point
+#     config-path: "./config.yaml"          # Path to config file
+#     secrets-path: "../secrets.yaml"       # Path to secrets file (project root by default)
+
+open-cre:
+  user-workflow:
+    workflow-name: "delphic-open"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.json"
+    secrets-path: ""
+
+# Close Position workflow (closePosition.ts)
+close-cre:
+  user-workflow:
+    workflow-name: "delphic-close"
+  workflow-artifacts:
+    workflow-path: "./closePosition.ts"
+    config-path: "./config.json"
+    secrets-path: ""
+
+# Order Monitor workflow (orderMonitor.ts)
+monitor-cre:
+  user-workflow:
+    workflow-name: "delphic-monitor"
+  workflow-artifacts:
+    workflow-path: "./orderMonitor.ts"
+    config-path: "./config.json"
+    secrets-path: ""

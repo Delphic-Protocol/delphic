@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.wasm
+tmp.js
+
+# CRE config
+config.json

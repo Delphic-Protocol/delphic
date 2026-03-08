@@ -1,0 +1,2 @@
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@chainlink/contracts-ccip/contracts/=lib/chainlink-local/lib/chainlink-ccip/chains/evm/contracts/

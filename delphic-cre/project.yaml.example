@@ -1,0 +1,16 @@
+open-cre:
+  rpcs:
+    - chain-name: polygon-mainnet
+      url: <YOUR_RPC>
+
+close-cre:
+  rpcs:
+    - chain-name: polygon-mainnet
+      url: <YOUR_RPC>
+
+monitor-cre:
+  rpcs:
+    - chain-name: polygon-mainnet
+      url: <YOUR_RPC>
+    - chain-name: ethereum-mainnet
+      url: <YOUR_RPC>

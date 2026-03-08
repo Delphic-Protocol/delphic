@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+*.env
+secrets.yaml
+
+# Dependencies
+node_modules/
+bun.lockb
+
+# Build output
+dist/
+*.wasm
+*.wasm.gz
+
+generated/
+project.yaml
+delphic-cre/config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
